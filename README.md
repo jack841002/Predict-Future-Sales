@@ -1,15 +1,15 @@
 # Predict-Future-Sales
 
-kaggle隊伍名稱：n96071180
-kaggle kernal連結：https://www.kaggle.com/n96071180/predict-future-sales
+kaggle隊伍名稱：n96071180  
+kaggle kernal連結：https://www.kaggle.com/n96071180/predict-future-sales  
 
 # data preprocessing
-(1) 把outlier刪除，只取
-item_price > 0 & item_price < 100000
-item_cnt_day < 800 & item_cnt_day >= 0
-(2) convert the raw sales data to monthly sales
-(3) Merge the monthly sales data to the test data, Remove the categorical data from our test data
-(4) create the actual training set, and create the actual test set
+(1) 把outlier刪除，只取  
+item_price > 0 & item_price < 100000  
+item_cnt_day < 800 & item_cnt_day >= 0  
+(2) convert the raw sales data to monthly sales  
+(3) Merge the monthly sales data to the test data, Remove the categorical data from our test data  
+(4) create the actual training set, and create the actual test set  
 
 # model selection
 (1) Create the model using the LSTM
