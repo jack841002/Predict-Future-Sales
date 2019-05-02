@@ -12,18 +12,18 @@ item_cnt_day < 800 & item_cnt_day >= 0
 (4) create the actual training set, and create the actual test set  
 
 # model selection
-(1) Create the model using the LSTM
-(2) Create the model using the XGB
-(3) Create the model using the GradientBoostingRegressor
+(1) Create the model using the LSTM  
+(2) Create the model using the XGB  
+(3) Create the model using the GradientBoostingRegressor  
 
 # test prediciton
-Get the test set predictions and clip values to the specified range
+Get the test set predictions and clip values to the specified range  
 
 
 
 # 比較
-使用了3個方法去實作
-GradientBoostingRegressor這個方法的準確值最低，score = 1.48
-XGB這個方法準確值尚可，score = 1.035，執行速度快
-LSTM這個方法準確值佳，score = 1.025，執行速度比XGB還要慢
+使用了3個方法去實作  
+GradientBoostingRegressor這個方法的準確值最低，score = 1.48  
+XGB這個方法準確值尚可，score = 1.035，執行速度快  
+LSTM這個方法準確值佳，score = 1.025，執行速度比XGB還要慢  
 
