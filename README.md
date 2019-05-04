@@ -24,6 +24,6 @@ Get the test set predictions and clip values to the specified range
 # 比較
 使用了3個方法去實作  
 GradientBoostingRegressor這個方法的準確值最低，score = 1.48  
-XGB這個方法準確值尚可，score = 1.035，執行速度快  
-LSTM這個方法準確值佳，score = 1.025，執行速度比XGB還要慢  
+XGB這個方法準確值佳，深度8層，score=0.91；深度10層，score = 0.905，執行時間很長
+LSTM這個方法準確值尚可，score = 1.025，執行時間長
 
